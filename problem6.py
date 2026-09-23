@@ -1,0 +1,12 @@
+# (Program to print the multiplication table of a given number using a while loop)
+
+number = int(input("Enter a number: "))
+
+i = 1
+
+while i <= 10:
+    result = number * i
+    print(number, "x", i, "=", result)
+    i = i + 1
+
+
